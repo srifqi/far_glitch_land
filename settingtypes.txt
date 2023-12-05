@@ -1,0 +1,15 @@
+# This file contains settings of Far Glitch Land that can be changed in
+# minetest.conf.
+
+# The thickness/size of Far Glitch Land from the edge of the world.
+# Zero thickness disables Far Glitch Land generation.
+fgl_thickness (Land Thickness) int 80 0 31000
+
+# Whether the Far Glitch Land generation removes engine-generated chunks.
+fgl_clean_generation (Clean Land Generation) bool true
+
+# The maximum height of Far Glitch Land.
+fgl_min_height (Minimum Land Height) int -31000 -31000 31000
+
+# The maximum height of Far Glitch Land.
+fgl_max_height (Maximum Land Height) int 31000 -31000 31000
